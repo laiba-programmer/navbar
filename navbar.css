@@ -1,0 +1,82 @@
+/* Navbar container */
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  
+}
+
+
+
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Pushes left and right nav apart */
+    align-items: center; /* Aligns items vertically */
+    padding: 10px 20px;
+}
+
+/* Remove default padding & margin */
+.navbar ul {
+    display: flex; /* Makes items appear in a row */
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.navbar li {
+    list-style: none;
+    padding: 10px 15px;
+ 
+ 
+}
+.btn{
+    border-radius: 55px;
+    background-color: beige;
+    padding: 10px;
+}
+.btn:hover{
+    background-color:yellow;
+}
+li a:hover{
+    border-bottom: 1px solid wheat;
+   
+   
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+ background-image: linear-gradient(grey,rgba(128, 128, 128, 0.432),rgba(0, 0, 0, 0.863));
+    height: 80vh;
+}
+.text{
+    width: 50%;
+    font-weight: bolder;
+    font-size: 40px;
+}
+span{
+    color: red;
+}
+.img img{
+    border-radius: 100%;
+position: relative;
+right: 200px;
+    width: 170%;
+    border: 5px ridge black;
+    box-shadow: 4px 0px 25px 20px,0px 4px 25px 30px bisque ;
+   
+}
